@@ -7,7 +7,7 @@
 }
 
 .main-banner {
-    @apply relative w-full h-24 md:h-24 lg:h-24 bg-cover bg-center;
+    @apply relative w-full h-16 md:h-20 lg:h-24 bg-cover bg-center shadow-xl mix-blend-multiply;
     background-image: url('assets/images/codex-banner.webp');
 }
 
