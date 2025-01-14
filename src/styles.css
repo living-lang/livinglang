@@ -5,3 +5,12 @@
 .main-button {
     @apply w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex items-center justify-center aspect-square bg-blue-500 text-white rounded-md shadow hover:bg-blue-600;
 }
+
+.main-banner {
+    @apply relative w-full h-24 md:h-24 lg:h-24 bg-cover bg-center;
+    background-image: url('assets/images/codex-banner.webp');
+}
+
+.main-logo {
+    @apply absolute top-1/2 left-20 transform -translate-y-1/2;
+}
