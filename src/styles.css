@@ -3,7 +3,15 @@
 @tailwind utilities;
 
 .main-button {
-    @apply w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex items-center justify-center aspect-square bg-blue-500 text-white rounded-md shadow hover:bg-blue-600;
+    @apply relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex items-center bg-[#78836B] hover:bg-[#586057] justify-center aspect-square text-white rounded-md shadow;
+}
+
+.main-button-image {
+    @apply absolute inset-0 w-full h-full object-cover opacity-60 transition-opacity duration-700 group-hover:opacity-30;
+}
+
+.main-button-text {
+    @apply relative z-10 opacity-70 transition-opacity duration-700 group-hover:opacity-100;
 }
 
 .main-banner {
@@ -12,5 +20,6 @@
 }
 
 .main-logo {
-    @apply absolute top-1/2 left-20 transform -translate-y-1/2;
+    @apply absolute top-1/2 transform -translate-y-1/2;
+    left: 5%;
 }
