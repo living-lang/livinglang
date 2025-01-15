@@ -20,6 +20,23 @@
 }
 
 .main-logo {
-    @apply absolute top-1/2 transform -translate-y-1/2;
+    @apply absolute top-1/2 transform -translate-y-1/2 h-5/6;
     left: 5%;
+    
+}
+
+.main-header {
+    @apply text-center text-4xl font-bold py-4 md:py-6 lg:py-8;
+}
+
+.main-paragraph {
+    @apply container mx-auto max-w-prose text-center text-xl px-6;
+}
+
+.back-button {
+    @apply absolute text-left p-4 underline text-[#78836B] hover:text-[#586057] cursor-pointer;
+}
+
+.copyright {
+    @apply text-center text-sm p-4;
 }
