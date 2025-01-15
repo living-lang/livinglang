@@ -19,6 +19,11 @@
     background-image: url('assets/images/codex-banner.webp');
 }
 
+.body-style {
+    @apply font-serif;
+    background-color: #e3d7c3;
+}
+
 .main-logo {
     @apply absolute top-1/2 transform -translate-y-1/2 h-5/6;
     left: 5%;

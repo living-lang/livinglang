@@ -588,10 +588,6 @@ video {
   }
 }
 
-.absolute {
-  position: absolute;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -603,14 +599,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.w-24 {
-  width: 6rem;
-}
-
-.cursor-pointer {
-  cursor: pointer;
 }
 
 .list-disc {
@@ -629,8 +617,12 @@ video {
   gap: 0.5rem;
 }
 
-.p-4 {
-  padding: 1rem;
+.p-1 {
+  padding: 0.25rem;
+}
+
+.p-2 {
+  padding: 0.5rem;
 }
 
 .px-12 {
@@ -658,15 +650,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-\[\#78836B\] {
-  --tw-text-opacity: 1;
-  color: rgb(120 131 107 / var(--tw-text-opacity, 1));
-}
-
-.underline {
-  text-decoration-line: underline;
 }
 
 .main-button {
@@ -767,6 +750,11 @@ video {
   background-image: url('assets/images/codex-banner.webp');
 }
 
+.body-style {
+  font-family: Merriweather, serif;
+  background-color: #e3d7c3;
+}
+
 .main-logo {
   position: absolute;
   top: 50%;
@@ -864,21 +852,4 @@ video {
   text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.hover\:text-\[\#586057\]:hover {
-  --tw-text-opacity: 1;
-  color: rgb(88 96 87 / var(--tw-text-opacity, 1));
-}
-
-@media (min-width: 768px) {
-  .md\:w-24 {
-    width: 6rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .lg\:w-24 {
-    width: 6rem;
-  }
 }
