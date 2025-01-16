@@ -617,10 +617,6 @@ video {
   gap: 0.5rem;
 }
 
-.p-1 {
-  padding: 0.25rem;
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -641,10 +637,6 @@ video {
 
 .text-left {
   text-align: left;
-}
-
-.font-serif {
-  font-family: Merriweather, serif;
 }
 
 .text-xl {
