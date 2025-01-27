@@ -47,9 +47,9 @@
 }
 
 .mail-button {
-    @apply underline text-[#78836B] hover:text-[#586057] cursor-pointer;
+    @apply underline p-4 text-[#78836B] hover:text-[#586057] cursor-pointer block text-center text-xl;
 }
 
 .copyright {
-    @apply text-center text-sm p-4;
+    @apply absolute bottom-0 left-0 right-0 text-center text-sm p-4;
 }
