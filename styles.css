@@ -858,6 +858,18 @@ video {
   color: rgb(88 96 87 / var(--tw-text-opacity, 1));
 }
 
+.mail-button {
+  cursor: pointer;
+  --tw-text-opacity: 1;
+  color: rgb(120 131 107 / var(--tw-text-opacity, 1));
+  text-decoration-line: underline;
+}
+
+.mail-button:hover {
+  --tw-text-opacity: 1;
+  color: rgb(88 96 87 / var(--tw-text-opacity, 1));
+}
+
 .copyright {
   padding: 1rem;
   text-align: center;
