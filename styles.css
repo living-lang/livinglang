@@ -659,7 +659,7 @@ video {
 @font-face {
   font-family: 'Fondamento';
 
-  src: url('/assets/fonts/Fondamento-Regular.ttf') format('ttf');
+  src: url('/assets/fonts/Fondamento-Regular.ttf') format('truetype');
 
   font-weight: 400;
 
@@ -694,7 +694,6 @@ header h1 {
   margin-bottom: 0.5rem;
   font-size: 2.25rem;
   line-height: 2.5rem;
-  font-weight: 700;
 }
 
 header h2 {
