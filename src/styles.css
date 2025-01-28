@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Setup relevant fonts */
+@font-face {
+    font-family: 'Fondamento';
+    src: url('/assets/fonts/Fondamento-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
 /* Generic page setup for all pages*/
 html, body {
     height: 100%;
@@ -12,25 +20,31 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    @apply font-serif;
+    background-color: #e3d7c3;
 }
   
 main {
     flex: 1;
 }
 
+header h1, h2 {
+    @apply text-center;
+    font-family: 'Fondamento', cursive;
+}
+
+header h1 {
+    @apply text-4xl font-bold mb-2;
+}
+
+header h2 {
+    @apply text-3xl mb-4 md:mb-6 lg:mb-8;
+}
+
 /* Create consistent styles for each page */
 .main-banner {
-    @apply relative w-full h-16 md:h-20 lg:h-24 bg-cover bg-center shadow-xl mix-blend-multiply;
+    @apply relative w-full h-16 md:h-20 lg:h-24 bg-cover bg-center shadow-xl mix-blend-multiply mb-4 md:mb-6 lg:mb-8;
     background-image: url('assets/images/codex-banner.webp');
-}
-
-.body-style {
-    @apply font-serif;
-    background-color: #e3d7c3;
-}
-
-.main-header {
-    @apply text-center text-4xl font-bold py-4 md:py-6 lg:py-8;
 }
 
 .main-paragraph {
@@ -64,7 +78,7 @@ main {
 
 /* Everything related to Resources page */
 .resource-heading {
-    @apply text-left text-xl font-bold;
+    @apply text-left text-xl font-bold p-1;
 }
 
 .resource-list li {
@@ -74,6 +88,7 @@ main {
 .resource-drop {
     @apply ml-2 text-black
 }
+
 /* Everything related to Our Mission info-cards */
 
 /* All logo formatting & copyright */

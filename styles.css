@@ -654,6 +654,18 @@ video {
   line-height: 1.75rem;
 }
 
+/* Setup relevant fonts */
+
+@font-face {
+  font-family: 'Fondamento';
+
+  src: url('/assets/fonts/Fondamento-Regular.ttf') format('ttf');
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
 /* Generic page setup for all pages*/
 
 html, body {
@@ -665,16 +677,49 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-family: Merriweather, serif;
+  background-color: #e3d7c3;
 }
 
 main {
   flex: 1;
 }
 
+header h1, h2 {
+  text-align: center;
+  font-family: 'Fondamento', cursive;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+}
+
+header h2 {
+  margin-bottom: 1rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+@media (min-width: 768px) {
+  header h2 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  header h2 {
+    margin-bottom: 2rem;
+  }
+}
+
 /* Create consistent styles for each page */
 
 .main-banner {
   position: relative;
+  margin-bottom: 1rem;
   height: 4rem;
   width: 100%;
   background-size: cover;
@@ -687,46 +732,20 @@ main {
 
 @media (min-width: 768px) {
   .main-banner {
+    margin-bottom: 1.5rem;
     height: 5rem;
   }
 }
 
 @media (min-width: 1024px) {
   .main-banner {
+    margin-bottom: 2rem;
     height: 6rem;
   }
 }
 
 .main-banner {
   background-image: url('assets/images/codex-banner.webp');
-}
-
-.body-style {
-  font-family: Merriweather, serif;
-  background-color: #e3d7c3;
-}
-
-.main-header {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  text-align: center;
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-  font-weight: 700;
-}
-
-@media (min-width: 768px) {
-  .main-header {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .main-header {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
 }
 
 .main-paragraph {
@@ -892,6 +911,7 @@ main {
 /* Everything related to Resources page */
 
 .resource-heading {
+  padding: 0.25rem;
   text-align: left;
   font-size: 1.25rem;
   line-height: 1.75rem;
