@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.main-button {
-    @apply relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex items-center bg-[#78836B] hover:bg-[#586057] justify-center aspect-square text-white rounded-md shadow;
-}
-
-.main-button-image {
-    @apply absolute inset-0 w-full h-full object-cover opacity-60 transition-opacity duration-700 group-hover:opacity-30;
-}
-
-.main-button-text {
-    @apply relative z-10 opacity-70 transition-opacity duration-700 group-hover:opacity-100;
-}
-
 .main-banner {
     @apply relative w-full h-16 md:h-20 lg:h-24 bg-cover bg-center shadow-xl mix-blend-multiply;
     background-image: url('assets/images/codex-banner.webp');
@@ -24,16 +12,6 @@
     background-color: #e3d7c3;
 }
 
-.main-logo {
-    @apply absolute top-1/2 transform -translate-y-1/2 h-5/6;
-    left: 5%;
-}
-
-.social-logo {
-    @apply absolute top-1/2 transform -translate-y-1/2 flex space-x-8 h-1/3;
-    right: 5%;
-}
-
 .main-header {
     @apply text-center text-4xl font-bold py-4 md:py-6 lg:py-8;
 }
@@ -42,12 +20,51 @@
     @apply container mx-auto max-w-prose text-center text-xl px-6;
 }
 
+/* Everything main-button related */
+.mail-button {
+    @apply underline text-[#78836B] hover:text-[#586057] cursor-pointer block text-center text-xl;
+}
+
+.main-button {
+    @apply relative w-full sm:w-1/2 md:w-1/3 lg:w-1/4 flex items-center bg-[#78836B] hover:bg-[#586057] justify-center aspect-square text-white rounded-md shadow;
+}
+
+.main-button-text {
+    @apply relative z-10 opacity-70 transition-opacity duration-700 group-hover:opacity-100;
+}
+
+.main-button-image {
+    @apply absolute inset-0 w-full h-full object-cover opacity-60 transition-opacity duration-700 group-hover:opacity-30;
+}
+
 .back-button {
     @apply absolute text-left p-4 underline text-[#78836B] hover:text-[#586057] cursor-pointer;
 }
 
-.mail-button {
-    @apply underline text-[#78836B] hover:text-[#586057] cursor-pointer block text-center text-xl;
+.link-button {
+    @apply text-left text-[#78836B] hover:text-[#586057] cursor-pointer;
+}
+
+/* Everything related to Resources page */
+.resource-heading {
+    @apply text-left text-xl font-bold;
+}
+
+.resource-list li {
+    @apply text-left text-base ml-4;
+}
+
+/* Everything related to Our Mission info-cards */
+
+/* All logo formatting & copyright */
+.main-logo {
+    @apply absolute top-1/2 transform -translate-y-1/2 h-5/6;
+    left: 5%;
+}
+
+.social-logo {
+    @apply absolute top-1/2 transform -translate-y-1/2 flex space-x-8 h-1/3;
+    right: 5%;
 }
 
 .copyright {
