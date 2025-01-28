@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Generic page setup for all pages*/
+html, body {
+    height: 100%;
+    margin: 0;
+}
+  
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+  
+main {
+    flex: 1;
+}
+
+/* Create consistent styles for each page */
 .main-banner {
     @apply relative w-full h-16 md:h-20 lg:h-24 bg-cover bg-center shadow-xl mix-blend-multiply;
     background-image: url('assets/images/codex-banner.webp');
@@ -51,9 +68,12 @@
 }
 
 .resource-list li {
-    @apply text-left text-base ml-4;
+    @apply text-left text-base ml-4 text-[#78836B] hover:text-[#586057] cursor-pointer;;
 }
 
+.resource-drop {
+    @apply ml-2 text-black
+}
 /* Everything related to Our Mission info-cards */
 
 /* All logo formatting & copyright */

@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1"/>
 		<link rel="stylesheet" href="styles.css">
 		<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+		<script src="https://cdn.jsdelivr.net/npm/alpinejs@3.12.0/dist/cdn.min.js" defer></script>
 	</head>
 	<body class="body-style">
 		<header>
@@ -29,18 +30,71 @@
 		<main>
 			<div class="main-paragraph">
 				<section id="websites">
-					<h2 class="resource-heading">Useful Websites:</h2><ul class="resource-list">
-					<li><a href="https://example.com/article1" target="_blank" class=link-button>Understanding HTML Basics</a></li>
-				</ul></section>
+					<h2 class="resource-heading">Useful Websites:</h2>
+					<ul class="resource-list">
+						<li><a href="https://www.mexicolore.co.uk/" target="_blank">Mexicolore</a></li>
+						<li><a href="https://example.com/article1" target="_blank">Understanding HTML Basics</a></li>
+						<li><a href="https://example.com/article1" target="_blank">Understanding HTML Basics</a></li>
+					</ul>
+				</section>
 				<section id="books">
-					<h2 class="resource-heading">Useful Books:</h2><ul class="resource-list">
-					<li><a href="https://example.com/article1" target="_blank" class=link-button>Understanding HTML Basics</a></li>
-				</ul></section>
+					<h2 class="resource-heading">Useful Books:</h2>
+					<ul class="resource-list">
+						<li x-data="{ open: false }">
+							<button @click="open = !open">
+							  Understanding HTML Basics
+							</button>
+							<div x-show="open" x-transition class="resource-drop">
+								<p>This book covers HTML and CSS fundamentals, providing a solid foundation for web development.</p>
+							</div>
+						</li>
+						<li x-data="{ open: false }">
+							<button @click="open = !open">
+							  Understanding HTML Basics
+							</button>
+							<div x-show="open" x-transition class="resource-drop">
+								<p>This book covers HTML and CSS fundamentals, providing a solid foundation for web development.</p>
+							</div>
+						</li>
+						<li x-data="{ open: false }">
+							<button @click="open = !open">
+							  Understanding HTML Basics
+							</button>
+							<div x-show="open" x-transition class="resource-drop">
+								<p>This book covers HTML and CSS fundamentals, providing a solid foundation for web development.</p>
+							</div>
+						</li>
+					</ul>
+				</section>
 				<section id="articles">
-					<h2 class="resource-heading">Useful Articles:</h2><ul class="resource-list">
-					<li><a href="https://example.com/article1" target="_blank" class=link-button>Understanding HTML Basics</a></li>
-				</ul></section>
-			</p>
+					<h2 class="resource-heading">Useful Articles:</h2>
+					<ul class="resource-list">
+						<li x-data="{ open: false }">
+							<button @click="open = !open">
+							  Understanding HTML Basics
+							</button>
+							<div x-show="open" x-transition class="resource-drop">
+								<p>This book covers HTML and CSS fundamentals, providing a solid foundation for web development.</p>
+							</div>
+						</li>
+						<li x-data="{ open: false }">
+							<button @click="open = !open">
+							  Understanding HTML Basics
+							</button>
+							<div x-show="open" x-transition class="resource-drop">
+								<p>This book covers HTML and CSS fundamentals, providing a solid foundation for web development.</p>
+							</div>
+						</li>
+						<li x-data="{ open: false }">
+							<button @click="open = !open">
+							  Understanding HTML Basics
+							</button>
+							<div x-show="open" x-transition class="resource-drop">
+								<p>This book covers HTML and CSS fundamentals, providing a solid foundation for web development.</p>
+							</div>
+						</li>
+					</ul>
+				</section>
 			</div>
 		</main>
 	</body>

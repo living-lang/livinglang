@@ -654,10 +654,24 @@ video {
   line-height: 1.75rem;
 }
 
-.text-blue-600 {
-  --tw-text-opacity: 1;
-  color: rgb(37 99 235 / var(--tw-text-opacity, 1));
+/* Generic page setup for all pages*/
+
+html, body {
+  height: 100%;
+  margin: 0;
 }
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main {
+  flex: 1;
+}
+
+/* Create consistent styles for each page */
 
 .main-banner {
   position: relative;
@@ -886,9 +900,23 @@ video {
 
 .resource-list li {
   margin-left: 1rem;
+  cursor: pointer;
   text-align: left;
   font-size: 1rem;
   line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(120 131 107 / var(--tw-text-opacity, 1));
+}
+
+.resource-list li:hover {
+  --tw-text-opacity: 1;
+  color: rgb(88 96 87 / var(--tw-text-opacity, 1));
+}
+
+.resource-drop {
+  margin-left: 0.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 /* Everything related to Our Mission info-cards */
@@ -928,9 +956,4 @@ video {
   text-align: center;
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.hover\:text-blue-800:hover {
-  --tw-text-opacity: 1;
-  color: rgb(30 64 175 / var(--tw-text-opacity, 1));
 }
