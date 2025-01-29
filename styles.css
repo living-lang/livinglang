@@ -617,10 +617,6 @@ video {
   gap: 0.5rem;
 }
 
-.p-2 {
-  padding: 0.5rem;
-}
-
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -674,10 +670,10 @@ html, body {
 }
 
 body {
+  font-family: Merriweather, serif;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-family: Merriweather, serif;
   background-color: #e3d7c3;
 }
 
@@ -797,6 +793,7 @@ header h2 {
 .mail-button {
   display: block;
   cursor: pointer;
+  padding: 1rem;
   text-align: center;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -883,7 +880,8 @@ header h2 {
 .back-button {
   position: absolute;
   cursor: pointer;
-  padding: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   text-align: left;
   --tw-text-opacity: 1;
   color: rgb(120 131 107 / var(--tw-text-opacity, 1));
@@ -895,16 +893,18 @@ header h2 {
   color: rgb(88 96 87 / var(--tw-text-opacity, 1));
 }
 
-.link-button {
-  cursor: pointer;
-  text-align: left;
-  --tw-text-opacity: 1;
-  color: rgb(120 131 107 / var(--tw-text-opacity, 1));
+@media (min-width: 768px) {
+  .back-button {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
 
-.link-button:hover {
-  --tw-text-opacity: 1;
-  color: rgb(88 96 87 / var(--tw-text-opacity, 1));
+@media (min-width: 1024px) {
+  .back-button {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 /* Everything related to Resources page */

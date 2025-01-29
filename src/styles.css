@@ -17,10 +17,10 @@ html, body {
 }
   
 body {
+    @apply font-serif;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    @apply font-serif;
     background-color: #e3d7c3;
 }
   
@@ -53,7 +53,7 @@ header h2 {
 
 /* Everything main-button related */
 .mail-button {
-    @apply underline text-[#78836B] hover:text-[#586057] cursor-pointer block text-center text-xl;
+    @apply underline text-[#78836B] hover:text-[#586057] cursor-pointer block text-center text-xl p-4;
 }
 
 .main-button {
@@ -69,11 +69,7 @@ header h2 {
 }
 
 .back-button {
-    @apply absolute text-left p-4 underline text-[#78836B] hover:text-[#586057] cursor-pointer;
-}
-
-.link-button {
-    @apply text-left text-[#78836B] hover:text-[#586057] cursor-pointer;
+    @apply absolute text-left px-4 md:px-6 lg:px-8 underline text-[#78836B] hover:text-[#586057] cursor-pointer;
 }
 
 /* Everything related to Resources page */
