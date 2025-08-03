@@ -6,7 +6,7 @@
   "tags": ["MAP"],
   "sortOrder": 1,
   "pages": {
-    "folio01": {
+    "1": {
       "id": "folio01",
       "imagePath": "/images/plano-papel-amate/page01.jpg",
       "transcription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...",
@@ -23,7 +23,7 @@
         }
       ]
     },
-    "folio02": {
+    "2": {
       "id": "folio02",
       "imagePath": "/images/plano-papel-amate/page02.jpg",
       "transcription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...",
