@@ -1,5 +1,5 @@
 {
-  "id": "cuauhtinchan4",
+  "id": "plano-papel-amate",
   "title": "Plano en Papel de Amate",
   "description": [
     {
@@ -7,7 +7,6 @@
       "es": "www"
     }
   ],
-  "coverImage": "/images/plano-papel-amate/page02.jpg",
   "tags": ["MAP"],
   "sortOrder": 1,
   "copyright": "© UNAM, Licensed under CC BY-NC 4.0",
@@ -33,8 +32,7 @@
       ]
     },
     "2": {
-      "id": "folio01",
-      "imagePath": "/images/plano-papel-amate/page01.jpg",
+      "id": "folio02",
       "transcription": "This is page two and we are very unique",
       "translation": {
         "en": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system...",

@@ -1,0 +1,39 @@
+{
+  "codices": [
+    {
+      "filename": "lienzo-de-zacatepec",
+      "title": "Lienzo de Zacatepec",
+      "tags": [
+        "MAP"
+      ],
+      "description": "Description of the Lienzo de Zacatepec codex",
+      "sortOrder": 1,
+      "totalPages": 1
+    },
+    {
+      "filename": "cuauhtinchan-4",
+      "title": "Mapa de Cuauhtinchan no. 4",
+      "tags": [
+        "MAP"
+      ],
+      "description": "Description of the Cuauhtinchan no. 4 codex",
+      "sortOrder": 1,
+      "totalPages": 1
+    },
+    {
+      "filename": "plano-papel-amate",
+      "title": "Plano en Papel de Amate",
+      "tags": [
+        "MAP"
+      ],
+      "description": [
+        {
+          "en": "www",
+          "es": "www"
+        }
+      ],
+      "sortOrder": 1,
+      "totalPages": 2
+    }
+  ]
+}

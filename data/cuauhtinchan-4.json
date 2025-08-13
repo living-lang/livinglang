@@ -1,16 +1,18 @@
 {
-  "id": "cuauhtinchan4",
+  "id": "cuauhtinchan-4",
   "title": "Mapa de Cuauhtinchan no. 4",
   "description": "Description of the Cuauhtinchan no. 4 codex",
-  "coverImage": "/images/cuauhtinchan4/page01.jpg",
   "tags": ["MAP"],
   "sortOrder": 1,
+  "copyright": "© UNAM, Licensed under CC BY-NC 4.0",
   "pages": {
-    "folio01": {
+    "1": {
       "id": "folio01",
-      "imagePath": "/images/cuauhtinchan4/folio01.jpg",
       "transcription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium...",
-      "translation": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system...",
+      "translation": {
+        "en": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system...",
+        "es": "Pero debo explicarte cómo nació toda esta idea errónea de denigrar el placer y alabar el dolor y te daré una cuenta completa del sistema..."
+      },
       "overlays": [
         {
           "id": 1,
@@ -20,15 +22,6 @@
           "height": 10,
           "transcription": "Transcription for overlay 1",
           "translation": "Translation for overlay 1"
-        },
-        {
-          "id": 2,
-          "x": 35,
-          "y": 25,
-          "width": 20,
-          "height": 10,
-          "transcription": "Transcription for overlay 2",
-          "translation": "Translation for overlay 2"
         }
       ]
     }
