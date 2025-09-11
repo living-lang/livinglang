@@ -1,0 +1,75 @@
+{
+  "categories": [
+    {
+      "id": "language-learning",
+      "title": "Language Learning",
+      "description": "Tools and platforms for language acquisition",
+      "resources": [
+        {
+          "id": "duolingo",
+          "title": "Duolingo",
+          "url": "https://duolingo.com",
+          "description": "Free language learning app with gamified lessons",
+          "summary": "Popular mobile-first platform offering bite-sized lessons in 40+ languages. Great for beginners with its game-like progression system.",
+          "tags": ["free", "mobile", "beginner-friendly"],
+          "type": "app",
+          "featured": true
+        },
+        {
+          "id": "anki",
+          "title": "Anki",
+          "url": "https://apps.ankiweb.net",
+          "description": "Spaced repetition flashcard system",
+          "summary": "Powerful flashcard app using spaced repetition algorithm. Highly customizable with user-generated decks. Best for vocabulary memorization.",
+          "tags": ["free", "flashcards", "advanced"],
+          "type": "software",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "dictionaries",
+      "title": "Dictionaries & References",
+      "description": "Comprehensive language references and dictionaries",
+      "resources": [
+        {
+          "id": "forvo",
+          "title": "Forvo",
+          "url": "https://forvo.com",
+          "description": "Pronunciation dictionary with native speakers",
+          "summary": "World's largest pronunciation dictionary. Hear words pronounced by native speakers from around the globe. Essential for proper pronunciation.",
+          "tags": ["pronunciation", "audio", "free"],
+          "type": "website",
+          "featured": true
+        },
+        {
+          "id": "linguee",
+          "title": "Linguee",
+          "url": "https://linguee.com",
+          "description": "Bilingual dictionary with real-world examples",
+          "summary": "Context-based translation tool showing how words are used in real documents. Great for understanding nuances and professional usage.",
+          "tags": ["translation", "context", "professional"],
+          "type": "website",
+          "featured": false
+        }
+      ]
+    },
+    {
+      "id": "historical-texts",
+      "title": "Historical Texts & Manuscripts",
+      "description": "Digital archives and manuscript collections",
+      "resources": [
+        {
+          "id": "digital-vatican",
+          "title": "Vatican Digital Library",
+          "url": "https://digi.vatlib.it",
+          "description": "Digitized manuscripts from the Vatican Library",
+          "summary": "Access to thousands of historical manuscripts, including medieval codices, illuminated texts, and ancient documents. High-resolution images available.",
+          "tags": ["manuscripts", "medieval", "historical"],
+          "type": "archive",
+          "featured": true
+        }
+      ]
+    }
+  ]
+}
